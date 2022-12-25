@@ -46,3 +46,10 @@ taib@taib-stoner: git remote remove origin
 taib@taib-stoner: git branch --delete taib
 #now you to delete master branch
 taib@taib-stoner: git branch -D master
+#for watching graph of commits
+taib@taib-stoner: git log --all --decorate --graph
+#getting conflict while merging between two branch 
+taib@taib-stoner: git config merge.tool vimdiff
+taib@taib-stoner: git config merge.conflictstyle diff3
+taib@taib-stoner: git config mergetool.prompt false
+taib@taib-stoner: git mergetool
