@@ -45,7 +45,7 @@ taib@taib-stoner: git push -u origin master
 #but you want to push forcely
 taib@taib-stoner: git push -f origin master
 #now you want to remove repository
-taib@taib-stoner: git remote remove origin [URL]
+taib@taib-stoner: git remote remove origin
 #now you want to delete taib branch 
 taib@taib-stoner: git branch --delete taib
 #now you to delete master branch
