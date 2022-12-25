@@ -14,6 +14,8 @@ taib@taib-stoner: git add .
 taib@taib-stoner: git status
 #we need commit the change of our code activation by giving coments
 taib@taib-stoner: git commit -m "My code activation"
+#to rename same commit 
+taib@taib-stoner: git commit --amend -m "Renamed commit"
 #Then we need to check the commit status
 taib@taib-stoner: git log
 #If update a file then we have to add that file again and also have to commit our changes  
@@ -41,7 +43,7 @@ taib@taib-stoner: git push -u origin master
 #but you want to push forcely
 taib@taib-stoner: git push -f origin master
 #now you want to remove repository
-taib@taib-stoner: git remote remove origin
+taib@taib-stoner: git remote remove origin [URL]
 #now you want to delete taib branch 
 taib@taib-stoner: git branch --delete taib
 #now you to delete master branch
