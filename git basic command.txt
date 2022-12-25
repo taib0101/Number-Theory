@@ -14,8 +14,10 @@ taib@taib-stoner: git add .
 taib@taib-stoner: git status
 #we need commit the change of our code activation by giving coments
 taib@taib-stoner: git commit -m "My code activation"
-#to rename same commit 
+#for rename same commit 
 taib@taib-stoner: git commit --amend -m "Renamed commit"
+#for remove previous commit
+taib@taib-stoner: git reset --hard [commit-id]
 #Then we need to check the commit status
 taib@taib-stoner: git log
 #If update a file then we have to add that file again and also have to commit our changes  
